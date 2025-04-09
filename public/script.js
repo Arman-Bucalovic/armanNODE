@@ -3,7 +3,7 @@ document.getElementById('generateBtn').addEventListener('click', function() {
       .then(response => response.json())
       .then(data => {
        
-        document.getElementById('playerDisplay').textContent = 'Novi igrač: ' + data.name;
+        document.getElementById('playerDisplay').textContent = 'New Player: ' + data.name;
         
     
         const playerImg = document.getElementById('playerImage');
