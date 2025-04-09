@@ -1,0 +1,13 @@
+{
+    "name": "node-vanilla-app",
+    "version": "1.0.0",
+    "description": "Node.js aplikacija sa vanilla HTML-om i CSS-om, deploy-ana na Render.com",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "express": "^4.18.2"
+    }
+  }
+  
