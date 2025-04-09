@@ -34,10 +34,12 @@ body {
     margin-bottom: 20px;
   }
   
-  #playerImage {
-    max-width: 100%;
-    height: auto;
+ #playerImage {
+    width: 300px;
+    height: 300px;
+    object-fit: cover; 
     border-radius: 10px;
     border: 2px solid #ddd;
   }
+  
   
